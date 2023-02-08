@@ -112,10 +112,6 @@ You can use whatever text editor you want btw.
 
 --> It's also possible to use **regular expressions**. For example, ignore all .csv files, but except one, or make comments, ...
 
-
-
-
-
 # How do we connect to a remote repository ?
 
 By using the command *git remote add <name> <URL>*
@@ -123,3 +119,23 @@ By using the command *git remote add <name> <URL>*
 --> This creates a bridge between our computer and a remote repository, but nothing is shared YET
 
 Once we have commited to **OUR** local repository, we need to **push** to the other repository on GitHub 
+
+
+
+# Catastrophe exercice
+
+Oh no ! A little gremlin deleted my .git folder, thus making it impossible for my computer to consider my repository as a git repository, what should I do ?
+
+
+
+1. Create a new .git folder --> *git innit*
+
+2. Start a connexion between your local repository and your GitHub repository, where you have saved your data --> *git remote add your_repository ssh_key_to_your_repository_on_github*
+
+3.  Then, simply pull it from there to your local destination --> *git pull your_repository master* (to get the master branch)
+
+**! If you already locally have some files that are also located in your GitHub repository, delete them, otherwise you won't be able to pull them from there as GitHub won't allow overwritting them !**
+
+
+
+Even simpler, we can clone the repository to our local location ! --> *github clone  <repos-url>*
