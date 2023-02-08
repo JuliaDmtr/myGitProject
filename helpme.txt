@@ -1,0 +1,18 @@
+github is yet another versioning system which I probably will not be able to learn.
+Git: is my magic timelne, each timeline is refering to one project
+GitHub: The backup of my timelines
+Inside my computer is the local versions of my documents.
+Developing area is my repository
+local repository is the timeline in the folder
+local repository keeping history 
+of all changes
+consepts
+	Dev area
+	Staging area 
+	local repository
+commands
+	git init
+	git add
+	git commit -m "meaningful message"
+	git status
+
