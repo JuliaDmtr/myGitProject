@@ -33,6 +33,12 @@ git pull to get it from remote repository
 how to connect your local repository with your remote repository
 git remote add myGitProject https://github.com/JuliaDmtr/myGitProject.git
 
+
 To restore deleted per accident repository you need to
 git clone git@github.com:johndoe/myfirstrepo.git .
 gir reflog is a logging mechanism and keeps a track of all changes against their unique hash-id
+
+recovering deleted file using Git command line involves the 'git restore' or 'git chechout'
+
+git pull to get the changes from remote repository
+
