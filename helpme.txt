@@ -24,3 +24,5 @@ git log provides you information about the history
 git diff ID1..ID2 shows changes between two commits with ids ID1 and ID2
 these IDs you can get with the git log command
 
+git show <ID1>..<ID2>shows morst resent commits
+git diff <ID1>..<ID2>the same
