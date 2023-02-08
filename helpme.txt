@@ -20,3 +20,6 @@ always add -m before your message
 what if I don't use - befor message
 git status is very important
 
+git log provides you information about the history
+
+
