@@ -62,7 +62,11 @@ We should commit information and be descriptive about the changes (why it was ch
 
 * *<u>git push</u>* : send to the remote repository
 
-* <u>*git pull*</u> : retrieve from the remote repository to our local
+* <u>*git pull*</u> : retrieve from the remote repository to our local (you will get updates)
+
+* <u>*git revert*</u> : revert what you just did
+
+* <u>*git clone*</u> : creates a clone of your GitHub repository, but you need to have the files written in the .gitignore.md saved somewhere else if they were part of the accidentally deleted data (you clone the WHOLE thing, not just updates)
 
 # Where is my content ?
 
@@ -139,3 +143,11 @@ Oh no ! A little gremlin deleted my .git folder, thus making it impossible for m
 
 
 Even simpler, we can clone the repository to our local location ! --> *github clone  <repos-url>*
+
+
+
+Also, git revert ID 
+
+
+
+# COLLABORATION ON GITHUB
