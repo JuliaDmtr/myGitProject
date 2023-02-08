@@ -16,3 +16,5 @@ commands
 	git commit -m "meaningful message"
 	git status
 
+always add -m before your message
+what if I don't use - befor message
