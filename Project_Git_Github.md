@@ -38,6 +38,16 @@ We should commit information and be descriptive about the changes (why it was ch
 
 
 
+==> It's very helpful to keep track of your changes, especially when you are working on several projects, you will easily forget them !
+
+
+
+* What if I don't use -m "nice message" ?
+  
+  --> You get an error ! 
+
+
+
 # **COMMANDS**
 
 * git init
