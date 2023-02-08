@@ -30,3 +30,5 @@ git remote add <name> <url>
 git push to push to remote repository
 git pull to get it from remote repository
 
+how to connect your local repository with your remote repository
+git remote add myGitProject https://github.com/JuliaDmtr/myGitProject.git
