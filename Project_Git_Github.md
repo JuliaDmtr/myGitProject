@@ -58,6 +58,16 @@ We should commit information and be descriptive about the changes (why it was ch
 
 * git status
 
+* git log : shows you the history of you timeline (how has been committing, how was it committed, when, ...)
+  
+  --> It's useful to have the name and email address of the person who committed, collaboration-wise. This way, you can easily discuss with them to understand and discussed what they did for example.
+
+* git diff HEAD^ HEAD -- path : shows you the differences between your current commit and the previous one
+  
+  ==> gives the difference **even if the git is not committed yet !**
+
+* git show <commit ID1> <commit ID2> (even simpler, and you don't even need to now the IDs of your commits, if you do flat it will show you the difference between the current one and the previous one, but of course if you know the ID of the commits you want to compare you can choose which commits you want to compare then !)
+
 
 
 # Where is my content ?
@@ -67,3 +77,29 @@ To check what is where, we can check the git status : tool that will give you al
 *git status* : command to check the status of your project
 
 **! you should alway check before commiting !**
+
+
+
+# Vi basic commands
+
+i: to insert text
+
+q: to exit (and save)
+
+q!: to exit without saving
+
+w: to write
+
+
+
+# Why staging before saving ?
+
+The best way to do it is to organize your files and commit them where they need to be !
+
+--> If you stage all documents at once, you may have insufficient or confuse history
+
+
+
+If you stage only one document, you have a repetitive history, easier to understand
+
+--> This way, you don't have too many messages to read
