@@ -103,3 +103,29 @@ The best way to do it is to organize your files and commit them where they need 
 If you stage only one document, you have a repetitive history, easier to understand
 
 --> This way, you don't have too many messages to read
+
+
+
+# **README.TXT**
+
+Detailed description of your project and tool usage
+
+
+
+# .gitignore
+
+List of files that should not be added to repository
+
+- Data files
+
+- Backup files
+
+- Intermediate files
+
+
+
+You can use whatever text editor you want btw.
+
+--> Several templates are suggested by github
+
+--> It's also possible to use **regular expressions**. For example, ignore all .csv files, but except one, or make comments, ...
